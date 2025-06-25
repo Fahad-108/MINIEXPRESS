@@ -66,7 +66,7 @@ MiniXpress/
 bash
 Copy
 Edit
-git clone https://github.com/haroon-90/MiniXpress.git
+git clone https://github.com/Fahad-108/MINIEXPRESS.git
 cd MiniXpress
 2. Install Dependencies
 bash
@@ -78,7 +78,7 @@ bash
 Copy
 Edit
 npm run dev
-Now visit: http://localhost:5173
+Now visit: http://localhost:5176
 
 🌐 Deployment
 You can deploy on:
