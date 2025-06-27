@@ -13,6 +13,7 @@ import CookiesPolicy from './components/CookiesPolicy'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import TermsAndConditions from './components/TermsAndConditions'
 import LicenseInfo from './components/LicenseInfo'
+import bg_light from './assets/bg_light.png'
 import bg from './assets/bg.png'
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
   const themeClass = isDark ? "bg-[#04acfb]" : "bg-blue-900 text-gray-900"
 
   return (
-    <div className={`min-h-screen flex flex-col justify-between font-[roboto] ${themeClass} `} style={{backgroundImage: `url(${bg})`}}>
+    <div className={`min-h-screen flex flex-col justify-between font-[roboto] ${themeClass} `} style={{
+        backgroundImage: `url(${isDark ? bg_light : bg})`
+      }}>
       <Navbar />
       <div className={` min-h-[calc(100vh-135px)] flex justify-center items-center`}>
         <Routes>

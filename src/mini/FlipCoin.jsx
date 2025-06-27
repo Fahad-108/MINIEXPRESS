@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { ThemeContext } from "../contexts/ThemeContext.jsx"
+import { FaCoins } from "react-icons/fa"
 import { motion } from "framer-motion"
 
 const FlipCoin = () => {
@@ -33,14 +34,17 @@ const FlipCoin = () => {
           color: isDark ? "#ffffff" : "#000000",
         }}
       >
-        <h2 className="text-2xl font-bold mb-4">🪙 Flip a Coin</h2>
+        <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
+  <FaCoins className="text-yellow-400" />
+  Flip a Coin
+</h2>
 
         <div className="w-32 h-32 mx-auto mb-4">
           <div
             className={`w-full h-full rounded-full flex items-center justify-center text-2xl font-semibold border-4 transition-transform duration-400 ease-in-out ${flipping ? "rotate-y-180 translate-y-[-10px]" : ""
               } ${side === "Heads" ? "bg-yellow-400 text-black" : "bg-gray-800 text-white"}`}
           >
-            {!flipping ? side : "🪙"}
+            {!flipping ? side :<FaCoins className="text-3xl text-yellow-400" />}
           </div>
         </div>
 
