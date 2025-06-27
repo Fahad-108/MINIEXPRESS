@@ -19,7 +19,7 @@ const Footer = () => {
           <h4 className="font-semibold mb-3 text-lg">Connect with Us</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/Fahad-108" target="_blank" rel="noopener noreferrer"
                 className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full">
                 GitHub
               </a>
@@ -43,25 +43,25 @@ const Footer = () => {
           <h4 className="font-semibold mb-3 text-lg">Legal</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link to="/terms"
+              <Link to="/MINIEXPRESS/terms"
                 className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full">
                 Terms & Conditions
               </Link>
             </li>
             <li>
-              <Link to="/policy"
+              <Link to="/MINIEXPRESS/policy"
                 className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link to="/cookies"
+              <Link to="/MINIEXPRESS/cookies"
                 className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full">
                 Cookies Policy
               </Link>
             </li>
             <li>
-              <Link to="/license"
+              <Link to="/MINIEXPRESS/license"
                 className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full">
                 License Info
               </Link>

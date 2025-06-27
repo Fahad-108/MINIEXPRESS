@@ -23,7 +23,7 @@ const Navbar = () => {
         <li>
           <Link
             className="hover:text-[#f87c07] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full"
-            to="/games"
+            to="/MINIEXPRESS/games"
           >
             Games
           </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
         <li>
           <Link
             className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full"
-            to="/entertainment"
+            to="/MINIEXPRESS/entertainment"
           >
             Entertainment
           </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <li>
           <Link
             className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full"
-            to="/utilities"
+            to="/MINIEXPRESS/utilities"
           >
             Utility
           </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
         <li>
           <Link
             className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full"
-            to="/randomizers"
+            to="/MINIEXPRESS/randomizers"
           >
             Randomizer
           </Link>

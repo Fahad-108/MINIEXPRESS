@@ -25,15 +25,15 @@ function App() {
       <Navbar />
       <div className={` min-h-[calc(100vh-135px)] flex justify-center items-center`}>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/games/*" element={<Games />} />
-          <Route path="/utilities/*" element={<Utilities />} />
-          <Route path="/entertainment/*" element={<Entertainment />} />
-          <Route path="/randomizers/*" element={<Randomizers />} />
-          <Route path="/cookies" element={<CookiesPolicy />} />
-          <Route path="/policy" element={<PrivacyPolicy />} />
-          <Route path="/license" element={<LicenseInfo />} />
-          <Route path="/terms" element={<TermsAndConditions />} />
+          <Route path="/MINIEXPRESS/" element={<Home />} />
+          <Route path="/MINIEXPRESS/games/*" element={<Games />} />
+          <Route path="/MINIEXPRESS/utilities/*" element={<Utilities />} />
+          <Route path="/MINIEXPRESS/entertainment/*" element={<Entertainment />} />
+          <Route path="/MINIEXPRESS/randomizers/*" element={<Randomizers />} />
+          <Route path="/MINIEXPRESS/cookies" element={<CookiesPolicy />} />
+          <Route path="/MINIEXPRESS/policy" element={<PrivacyPolicy />} />
+          <Route path="/MINIEXPRESS/license" element={<LicenseInfo />} />
+          <Route path="/MINIEXPRESS/terms" element={<TermsAndConditions />} />
 
         </Routes>
       </div>
