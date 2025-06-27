@@ -1,42 +1,40 @@
 
+```md
+# 🚀 MiniXpress
 
- 🚀 MiniXpress
-
-MiniXpress is a fun-packed, lightweight web app that brings together a collection of mini tools and games — all built with React. From productivity utilities to engaging games, MiniXpress is designed to deliver fast, enjoyable, and interactive experiences in one place.
-
----
-
- 🌟 Categories
-
-* Games
-* Entertainment
-* Utility
-* Randomizer
+*MiniXpress* is a fun-packed, lightweight web app that brings together a collection of mini tools and games — all built with React. From productivity utilities to engaging games, MiniXpress is designed to deliver fast, enjoyable, and interactive experiences in one place.
 
 ---
 
- 🌟 Features
+## 🌟 Categories
 
-* **Tic Tac Toe** – Classic Xs and Os game with animation and theme toggle.
-* **Card Clash** – Memory matching game with card flip mechanics.
-* **Dice Roller** – Virtual dice with random number animation.
-* **Flip the Coin** – Heads or tails? Test your luck!
-* **Stopwatch** – Track time with start, stop, and reset controls.
-* **Calculator** – Perform quick calculations with a responsive interface.
-* **Music Player** – Basic music player with play/pause functionality.
-* **Word Guess** – Word guessing game, user guesses by multiple tries.
-* **Color Memory** – Color memorizing game for mind sharpening.
-* **Taskify** – Your daily task manager.
+* *Games*
+* *Entertainment* 
+* *Utility* 
+* *Randomizer* 
 
 ---
 
- 🎨 Theme Support
+## 🌟 Features
 
-Fully supports Dark Mode / Light Mode using ThemeContext.
+* *Tic Tac Toe* – Classic Xs and Os game with animation and theme toggle.
+* *Card Clash* – Memory matching game with card flip mechanics.
+* *Dice Roller* – Virtual dice with random number animation.
+* *Flip the Coin* – Heads or tails? Test your luck!
+* *Stopwatch* – Track time with start, stop, and reset controls.
+* *Calculator* – Perform quick calculations with a responsive interface.
+* *Music Player* – Basic music player with play/pause functionality.
+* *Word Guess* – Word guessing game where user guesses by multiple tries.
+* *Color Memory* – Color memorizing game for mind sharpening.
+* *Taskify* – Your daily task manager.
+
+### 🎨 Theme Support
+
+* Fully supports *Dark Mode / Light Mode* using ThemeContext.
 
 ---
 
- ⚙️ Tech Stack
+## ⚙ Tech Stack
 
 | Tech             | Description                   |
 | ---------------- | ----------------------------- |
@@ -48,9 +46,10 @@ Fully supports Dark Mode / Light Mode using ThemeContext.
 
 ---
 
- 📁 Folder Structure
+## 📁 Folder Structure
 
 ```
+
 MiniXpress/
 ├── public/
 ├── src/
@@ -66,36 +65,37 @@ MiniXpress/
 │   ├── main.jsx
 │   └── index.css
 └── README.md
-```
+
+````
 
 ---
 
- 🚀 Getting Started
+## 🚀 Getting Started
 
- 1. Clone the Repo
+### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/Fahad-108/MINIEXPRESS.git
-cd MINIEXPRESS
-```
+git clone https://github.com/Fahad-108/MINIEXPRESS
+cd MiniXpress
+````
 
- 2. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
- 3. Run the App Locally
+### 3. Run the App Locally
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5176](http://localhost:5176) in your browser.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
- 🌐 Deployment
+## 🌐 Deployment
 
 To deploy on GitHub Pages:
 
@@ -112,27 +112,27 @@ Or deploy easily on platforms like **Vercel**, **Netlify**, or **Firebase Hostin
 
 * 💡 Notes App
 * 🎯 Quick Quiz Game
-* ⏲️ Pomodoro Timer
-* 🤖 Chat with AI
-* 🖼️ Image Editor / Filters
+* 🗕 Pomodoro Timer
+* 💭 Chat with AI
+* 📷 Image Editor / Filters
 
 ---
 
- 🤝 Contributing
+## 🤝 Contributing
 
-Feel free to fork the repo and submit a pull request.
-Suggestions and improvements are always welcome!
-
----
-
- 📄 License
-
-This project is open-source and available under the MIT License.
+Feel free to fork the repo and submit a pull request. Suggestions and improvements are always welcome!
 
 ---
 
- 🔗 Connect
+## 📄 License
 
-Made with ❤️ by Fahad
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🔗 Connect
+
+Made with ❤ by *Fahad*
 GitHub: [@Fahad-108](https://github.com/Fahad-108)
 
+```
