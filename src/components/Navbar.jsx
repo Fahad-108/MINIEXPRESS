@@ -74,7 +74,7 @@ const Navbar = () => {
           } shadow-lg rounded-md flex flex-col md:hidden z-20`}
         >
           <Link
-            to="/games"
+            to="/MINIEXPRESS/games"
             className={`px-4 py-2 rounded ${
               isDark ? 'hover:bg-gray-200' : 'hover:bg-blue-700'
             }`}
@@ -83,7 +83,7 @@ const Navbar = () => {
             Games
           </Link>
           <Link
-            to="/entertainment"
+            to="/MINIEXPRESS/entertainment"
             className={`px-4 py-2 rounded ${
               isDark ? 'hover:bg-gray-200' : 'hover:bg-blue-700'
             }`}
@@ -92,7 +92,7 @@ const Navbar = () => {
             Entertainment
           </Link>
           <Link
-            to="/utilities"
+            to="/MINIEXPRESS/utilities"
             className={`px-4 py-2 rounded ${
               isDark ? 'hover:bg-gray-200' : 'hover:bg-blue-700'
             }`}
@@ -101,7 +101,7 @@ const Navbar = () => {
             Utility
           </Link>
           <Link
-            to="/randomizers"
+            to="/MINIEXPRESS/randomizers"
             className={`px-4 py-2 rounded ${
               isDark ? 'hover:bg-gray-200' : 'hover:bg-blue-700'
             }`}
