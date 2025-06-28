@@ -54,7 +54,7 @@ const StopWatch = () => {
       <div
         className="p-6 w-80 mx-auto bg-blue-800/20 backdrop-blur-[2px] my-4 rounded-lg"
         style={{
-          color: isDark ? "#ffffff" : "#000000",
+          color: isDark ? "#000000" : "#ffffff",
         }}
       >
         <h2 className="flex justify-center gap-2 text-center text-3xl font-bold mb-4">

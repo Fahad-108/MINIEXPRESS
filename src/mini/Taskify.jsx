@@ -93,10 +93,10 @@ function App() {
             >
                 <main className={`container max-w-[80vw] mx-auto my-5 pb-10 p-5 pt-0 rounded-2xl border bg-blue-800/20 backdrop-blur-[2px]`}>
                     <div className='flex justify-center bg-[#FFA500] rounded-bl-3xl rounded-br-3xl'>
-                        <h1 className='font-bold text-2xl text-[#0f1056] p-5'>&lt;&#x2f;&gt; Taskify - Your Task Manager</h1>
+                        <h1 className={`font-bold text-2xl ${isDark? "text-[#0f1056]": "text-white"}  p-5`}>&lt;&#x2f;&gt; Taskify - Your Task Manager</h1>
                     </div>
                     <div className='container p-2 mx-auto'>
-                        <h2 className='font-bold text-xl m-2'>Add Task</h2>
+                        <h2 className={`font-bold text-xl m-2 ${isDark? "text-[#0f1056]": "text-white"}`}>Add Task</h2>
                         <div>
                             <input
                                 type="text"
@@ -112,14 +112,14 @@ function App() {
                     </div>
                     <div className="checkbox m-2">
                         <input onChange={toggleComplete} type="checkbox" name="Show Completed Tasks" id='show_completed_tasks' className='mr-2 accent-[#FFA500]' />
-                        <span>Completed Tasks</span>
+                        <span className={`${isDark? "text-[#0f1056]": "text-white"}`}>Completed Tasks</span>
                     </div>
-                    <h2 id='yourtasks' className='font-bold text-xl m-2'>Tasks To Do</h2>
+                    <h2 id='yourtasks' className={`font-bold text-xl m-2 ${isDark? "text-[#0f1056]": "text-white"}`}>Tasks To Do</h2>
                     <div className='TODOS'>
-                        {filteredTodos.length === 0 && <h1 className='text-center text-2xl font-bold'>No Task Found</h1>}
+                        {filteredTodos.length === 0 && <h1 className={`text-center text-2xl font-bold ${isDark? "text-[#0f1056]": "text-white"}`}>No Task Found</h1>}
                         {filteredTodos.map(items => {
                             return (
-                                <div key={items.id} className="todoscontainer m-2 p-2 mx-auto flex justify-between items-center max-w-[80vw]">
+                                <div key={items.id} className={`todoscontainer m-2 p-2 mx-auto flex justify-between items-center max-w-[80vw] ${isDark? "text-[#0f1056]": "text-white"}`}>
                                     <div className='mr-2 flex max-w-[70vw] gap-2'>
                                         <input checked={items.iscompleted} onChange={handlecheckbox} type="checkbox" name={items.id} id="" className='mt-1 accent-[#FFA500]' />
                                         <div className="break-words whitespace-normal">

@@ -42,7 +42,7 @@ const Calculator = () => {
           color: isDark ? "#ffffff" : "#000000",
         }}
       >
-        <h2 className="text-center text-2xl font-bold mb-4">Calculator</h2>
+        <h2 className={`text-center ${isDark?"text-black":"text-white"} text-2xl font-bold mb-4`}>Calculator</h2>
 
         <div className="mb-4">
           <input

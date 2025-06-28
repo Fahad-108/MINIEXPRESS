@@ -15,14 +15,14 @@ const Navbar = () => {
     <nav
       className={`px-8 py-4 w-full flex justify-between items-center ${
         isDark ? 'bg-[#04acfb]/20 text-black' : 'bg-blue-900/20 text-white'
-      } relative backdrop-blur-[4px]`}
+      } relative backdrop-blur-[4px] border-b`}
     >
-      <img src={Logo} alt="Logo" className= {` h-12 w-24  `}/>
+      <img src={Logo} alt="Logo" className= {` h-12 w-30 `}/>
 
       <ul className="hidden md:flex gap-6 text-lg font-medium">
         <li>
           <Link
-            className="hover:text-[#f87c07] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full"
+            className="hover:text-[#fb8c04] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#fb8c04] after:transition-all after:duration-300 hover:after:w-full"
             to="/MINIEXPRESS/games"
           >
             Games
@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full"
+            className="hover:text-[#fb8c04] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#fb8c04] after:transition-all after:duration-300 hover:after:w-full"
             to="/MINIEXPRESS/entertainment"
           >
             Entertainment
@@ -38,7 +38,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full"
+            className="hover:text-[#fb8c04] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#fb8c04] after:transition-all after:duration-300 hover:after:w-full"
             to="/MINIEXPRESS/utilities"
           >
             Utility
@@ -46,7 +46,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="hover:text-[#FB5304] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FB5304] after:transition-all after:duration-300 hover:after:w-full"
+            className="hover:text-[#fb8c04] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#fb8c04] after:transition-all after:duration-300 hover:after:w-full"
             to="/MINIEXPRESS/randomizers"
           >
             Randomizer
@@ -59,7 +59,7 @@ const Navbar = () => {
         onClick={toggleTheme}
         className="px-2 py-1 border rounded-full ml-4"
       >
-        {isDark ? <FaSun /> : <FaMoon />}
+        {isDark ? <FaMoon /> : <FaSun />}
       </button>
 
       <button className="md:hidden text-xl ml-4" onClick={handleMenuToggle}>

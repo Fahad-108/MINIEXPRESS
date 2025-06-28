@@ -133,7 +133,7 @@ const ColorGame = () => {
             <div
                 className={`flex flex-col items-center justify-center text-center p-6 py-8 bg-blue-800/20 backdrop-blur-[2px] my-4 rounded-lg`}
             >
-                <h1 className={`text-4xl font-extrabold mb-4 drop-shadow-lg ${isDark ? "" : "text-black"}`}>
+                <h1 className={`text-4xl font-extrabold mb-4 drop-shadow-lg ${isDark ? "text-black" : "text-white"}`}>
                     Color Memory Game
                 </h1>
 
@@ -146,7 +146,7 @@ const ColorGame = () => {
                     </span>
                 </div>
 
-                <p className="mb-6 text-lg font-semibold transition">{message}</p>
+                <p className={`mb-6 text-lg font-semibold transition ${isDark ? "text-black" : "text-white"} `}>{message}</p>
 
                 <div className="grid grid-cols-2 gap-6 mb-8">
                     {colors.map((color) => (

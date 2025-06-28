@@ -11,7 +11,7 @@ const Card = ({logo,title}) => {
   return (
     
     <Link to={lowertitle}>
-    <div className="max-w-sm mx-auto bg-[#f87c07] rounded-xl shadow-md p-4 transition-transform duration-300 hover:scale-110">
+    <div className={`max-w-sm mx-auto ${isDark? "bg-[#fdb009]" :"bg-[#f87c07]"} rounded-xl shadow-md p-4 transition-transform duration-300 hover:scale-110`}>
       <div className="flex justify-center mb-4">
         <img className={`h-25 w-30 rounded ${isDark?"invert":""}`} src={logo} alt={title} />
       </div>

@@ -35,7 +35,13 @@ const TicTacToe = () => {
         whileHover={{ scale: 1.05 }}
         className={`w-20 h-20 md:w-24 md:h-24 text-2xl md:text-3xl flex items-center justify-center border-2 border-gray-600 rounded-md cursor-pointer transition duration-300
           ${board[index] ? (isDark ? "bg-[#2A2B30]" : "bg-gray-200") : (isDark ? "bg-[#1E1F24] hover:bg-[#3a3b40]" : "bg-gray-100 hover:bg-gray-300")}
-          ${isWinningCell ? "animate-glow border-[#FFA500] text-[#FFA500]" : ""}
+          ${
+            isWinningCell
+              ? "animate-glow border-[#FFA500] text-[#FFA500]"
+              : board[index]
+                ? isDark ? "text-white" : "text-black"
+                : ""
+          }
         `}
       >
         {board[index]}
@@ -50,9 +56,8 @@ const TicTacToe = () => {
       exit={{ clipPath: 'circle(0% at 50% 50%)' }}
       transition={{ duration: 0.7, ease: 'easeInOut' }}
     >
-      <div
-        className={`p-6 max-w-sm mx-auto rounded-xl bg-blue-800/20 backdrop-blur-[2px] my-4`}>
-        <h2 className="text-2xl font-bold text-center mb-4">Tic Tac Toe</h2>
+      <div className={`p-6 max-w-sm mx-auto rounded-xl bg-blue-800/20 backdrop-blur-[2px] my-4`}>
+        <h2 className={`text-2xl font-bold text-center mb-4 ${isDark ? "" : "text-white"}`}>Tic Tac Toe</h2>
 
         <div className="grid grid-cols-3 gap-2">
           {board.map((_, index) => renderCell(index))}
@@ -71,7 +76,7 @@ const TicTacToe = () => {
           ) : board.every(Boolean) ? (
             <p className="text-xl font-semibold mb-2">It's a draw!</p>
           ) : (
-            <p className="text-lg mb-2">Turn: {isXTurn ? "X" : "O"}</p>
+            <p className={`text-lg mb-2 ${isDark ? "" : "text-white"}`}>Turn: {isXTurn ? "X" : "O"}</p>
           )}
 
           <button

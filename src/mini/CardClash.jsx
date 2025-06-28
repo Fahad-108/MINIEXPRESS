@@ -89,7 +89,7 @@ const CardClash = () => {
         className="p-4 sm:p-6 bg-blue-800/20 backdrop-blur-[2px] rounded-lg my-4"
       >
         <div className="flex items-center justify-center mt-4 mb-4 text-center">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">Card Clash</h1>
+          <h1 className={`text-2xl sm:text-3xl md:text-4xl ${isDark? "text-black" : "text-white"} font-bold`}>Card Clash</h1>
         </div>
 
         <div className="flex flex-wrap justify-center gap-4 max-w-5xl mx-auto mt-6 p-4">

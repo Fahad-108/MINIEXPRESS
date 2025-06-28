@@ -72,7 +72,7 @@ const App = () => {
     >
       <div
         className="min-h-[calc(100vh-136px)] flex flex-col items-center justify-center gap-4 p-4 rounded-lg transition-all duration-300 bg-blue-800/20 backdrop-blur-[2px] my-4">
-        <h1 className="text-3xl font-bold" style={{ color: isDark ? "#81cfff" : "#2563eb" }}>
+        <h1 className="text-3xl font-bold" style={{ color: isDark ? "black" : "white" }}>
           Word Guessing Game
         </h1>
 
